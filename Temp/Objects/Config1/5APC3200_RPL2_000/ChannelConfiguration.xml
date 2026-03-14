@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
+  <Module ID="$root" Hardware="5APC3200.RPL2-000" HardwareModuleName="5APC3200_RPL2_000" ModuleID="1">
+    <Channel ID="SerialNumber_CPU" Description="Serial number of CPU board" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="SerialNumber" />
+    <Channel ID="ModuleID_CPU" Description="Module ID of CPU board" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="ModuleID" />
+    <Channel ID="PowerOnCycles_CPU" Description="PowerOnCycles of CPU board" Ext="/HW" Address="2" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="HalOverHwd" />
+    <Channel ID="OperatingHours_CPU" Description="Operating hours of CPU board [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="HalOverHwd" CyclicUpdate="60000" />
+    <Channel ID="BatteryStatus" Description="Battery status PC (0 = battery low or missing, 1 = battery ok)" Ext="/HW" Address="4" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="HalOverHwd" CyclicUpdate="60000" />
+    <Channel ID="MTCXVersionMajor" Description="MTCX version" Ext="/HW" Address="5" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="HalOverHwd" />
+    <Channel ID="MTCXVersionMinor" Description="MTCX version" Ext="/HW" Address="6" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="HalOverHwd" />
+    <Channel ID="TemperatureCFexpress" Description="Temperature of the CFexpress environment in 1/10 degree Celsius" Ext="/HW" Address="7" Direction="IN" Type="UINT" Sig_Temp_CFastTemp="1" ChannelType="HalOverHwd" CyclicUpdate="10000" />
+    <Channel ID="TemperatureETH" Description="Temperature of the ethernet environment in 1/10 degree Celsius" Ext="/HW" Address="8" Direction="IN" Type="UINT" Sig_Temp_EthTemp="1" ChannelType="HalOverHwd" CyclicUpdate="10000" />
+    <Channel ID="TemperatureCPU" Description="Temperature of CPU in 1/10 degree Celsius" Ext="/HW" Address="9" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="HalOverHwd" CyclicUpdate="10000" />
+    <Channel ID="StorageWear" Description="Wear level of storage medium in percent" Ext="/HW" Address="10" Direction="IN" Type="UINT" Sig_Ana_0percent_100percent_genuine="1" ChannelType="GenericFuncCall" Function="storageDpWear" CyclicUpdate="1" />
+    <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="11" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
+  </Module>
+</ChannelConfiguration>

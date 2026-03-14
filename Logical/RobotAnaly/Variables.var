@@ -1,0 +1,5 @@
+VAR
+	L_DrainRate  : REAL := 0.005;
+	L_LowBattWrn : BOOL := FALSE;
+	L_CritLevel  : REAL := 10.0;
+END_VAR

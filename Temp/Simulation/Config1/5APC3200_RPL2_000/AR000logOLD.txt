@@ -1,0 +1,9 @@
+08-03-2026 00:59:05 - COPYRIGHT (C) B&R Industrial Automation GmbH
+08-03-2026 00:59:05 - No ARsim registration found!
+08-03-2026 00:59:05 - InstanceName: 000002bcdf2c0a87
+08-03-2026 00:59:05 - WorkingDirectory: C:\projects\AMR_logistics\Temp\Simulation\Config1\5APC3200_RPL2_000\
+08-03-2026 00:59:05 - COMMAND_COLDSTART
+08-03-2026 00:59:07 - Version: 6.5.1
+08-03-2026 00:59:07 - Build: 2
+13-03-2026 20:16:28 - COMMAND_TERMINATE
+14-03-2026 19:21:22 - COMMAND_TERMINATE

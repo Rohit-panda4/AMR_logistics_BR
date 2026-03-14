@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%ID.SerialNumber_CPU" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber_CPU" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID_CPU" Type="UINT">
+<Prod Device="$root" DPName="ModuleID_CPU" Kind="io"/>
+</LN>
+<LN ID="%ID.PowerOnCycles_CPU" Type="UDINT">
+<Prod Device="$root" DPName="PowerOnCycles_CPU" Kind="io"/>
+</LN>
+<LN ID="%ID.OperatingHours_CPU" Type="UDINT">
+<Prod Device="$root" DPName="OperatingHours_CPU" Kind="io"/>
+</LN>
+<LN ID="%IB.BatteryStatus" Type="USINT">
+<Prod Device="$root" DPName="BatteryStatus" Kind="io"/>
+</LN>
+<LN ID="%IB.MTCXVersionMajor" Type="USINT">
+<Prod Device="$root" DPName="MTCXVersionMajor" Kind="io"/>
+</LN>
+<LN ID="%IB.MTCXVersionMinor" Type="USINT">
+<Prod Device="$root" DPName="MTCXVersionMinor" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCFexpress" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCFexpress" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureETH" Type="UINT">
+<Prod Device="$root" DPName="TemperatureETH" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.StorageWear" Type="UINT">
+<Prod Device="$root" DPName="StorageWear" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+</Links></IO>

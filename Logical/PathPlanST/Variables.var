@@ -1,0 +1,5 @@
+VAR
+	L_VelocityX  : REAL  := 0.05;
+	L_VelocityY  : REAL  := 0.02;
+	L_StepCount  : UDINT := 0;
+END_VAR

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.5.1.7"?>
+<Objects>
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="134173843903682660" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="134179698798335391"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="134173816055504432" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="134173816054747942" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="134173816054667731"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="134173816054711497"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="134173816054722942"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="134173816055248593" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="134173816055208176"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="134173816055218155"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="134173816055238265"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="134173816055469999" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="134173816055415043"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="134173816055428058"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="134173816055451867"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\PathPlanST\IEC.prg"
+    LogicalPath="PathPlanST"
+    Type="Program"
+    LastWriteTime="134173831991297216" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\PathPlanST\Main.st"
+    LogicalPath="PathPlanST.Main.st"
+    Type="File"
+    LastWriteTime="134173833062002368"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\PathPlanST\Types.typ"
+    LogicalPath="PathPlanST.Types.typ"
+    Type="File"
+    LastWriteTime="134173831991331635"
+    Private="true" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\PathPlanST\Variables.var"
+    LogicalPath="PathPlanST.Variables.var"
+    Type="File"
+    LastWriteTime="134173855177663982"
+    Private="true" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\RobotAnaly\IEC.prg"
+    LogicalPath="RobotAnaly"
+    Type="Program"
+    LastWriteTime="134173833167124124" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\RobotAnaly\Main.st"
+    LogicalPath="RobotAnaly.Main.st"
+    Type="File"
+    LastWriteTime="134173833631977347"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\RobotAnaly\Types.typ"
+    LogicalPath="RobotAnaly.Types.typ"
+    Type="File"
+    LastWriteTime="134173833167165855"
+    Private="true" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\RobotAnaly\Variables.var"
+    LogicalPath="RobotAnaly.Variables.var"
+    Type="File"
+    LastWriteTime="134173855573428311"
+    Private="true" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\MainCtrl\IEC.prg"
+    LogicalPath="MainCtrl"
+    Type="Program"
+    LastWriteTime="134173834229087178" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\MainCtrl\Cyclic.ld"
+    LogicalPath="MainCtrl.Cyclic.ld"
+    Type="File"
+    LastWriteTime="134173839228612935"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\MainCtrl\Init.ld"
+    LogicalPath="MainCtrl.Init.ld"
+    Type="File"
+    LastWriteTime="134173834229117515"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\MainCtrl\Exit.ld"
+    LogicalPath="MainCtrl.Exit.ld"
+    Type="File"
+    LastWriteTime="134173834229141114"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\MainCtrl\Types.typ"
+    LogicalPath="MainCtrl.Types.typ"
+    Type="File"
+    LastWriteTime="134173834229161711"
+    Private="true" />
+  <Object
+    Path="C:\projects\AMR_logistics\Logical\MainCtrl\Variables.var"
+    LogicalPath="MainCtrl.Variables.var"
+    Type="File"
+    LastWriteTime="134173843165307298"
+    Private="true" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="134173816058683945" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="134173816097999515"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Cpu.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000"
+    Type="Cpu"
+    LastWriteTime="134173816060520698" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Cpu.sw"
+    LogicalPath="Config1.5APC3200_RPL2_000.Cpu.sw"
+    Type="File"
+    LastWriteTime="134173849219682188"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Cpu.per"
+    LogicalPath="Config1.5APC3200_RPL2_000.Cpu.per"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\IoMap.iom"
+    LogicalPath="Config1.5APC3200_RPL2_000.IoMap.iom"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\PvMap.vvm"
+    LogicalPath="Config1.5APC3200_RPL2_000.PvMap.vvm"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Connectivity\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.Connectivity"
+    Type="Package"
+    LastWriteTime="134173816059820148" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Connectivity\OpcUaCs\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.Connectivity.OpcUaCs"
+    Type="Package"
+    LastWriteTime="134173816059673136" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Connectivity\OpcUaCs\UaCsConfig.uacfg"
+    LogicalPath="Config1.5APC3200_RPL2_000.Connectivity.OpcUaCs.UaCsConfig.uacfg"
+    Type="File"
+    LastWriteTime="134173816059648294"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Connectivity\OpcUaCs\UaDvConfig.uadcfg"
+    LogicalPath="Config1.5APC3200_RPL2_000.Connectivity.OpcUaCs.UaDvConfig.uadcfg"
+    Type="File"
+    LastWriteTime="134173816059663750"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="134173816059708241" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\TextSystem\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.TextSystem"
+    Type="Package"
+    LastWriteTime="134173816059861706" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\UnitSystem\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.UnitSystem"
+    Type="Package"
+    LastWriteTime="134173816059913577" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="134173816060510708" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="134173816059981744" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\UserRoleSystem\BRRole.brrole"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.UserRoleSystem.BRRole.brrole"
+    Type="File"
+    LastWriteTime="134173816059971761"
+    Private="false" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="134173816060376247" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="134173816060201501" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="134173816060056936" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="134173816060088303" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="134173816060279993" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="134173816060257451" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="134173816060315579" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="134173816060355734" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\ManagedCertificateStores\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.ManagedCertificateStores"
+    Type="Package"
+    LastWriteTime="134173816060406321" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="134173816060449715" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="134173816060490589" />
+  <Object
+    Path="C:\projects\AMR_logistics\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.5APC3200_RPL2_000.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="134173816060480627"
+    Private="false" />
+</Objects>

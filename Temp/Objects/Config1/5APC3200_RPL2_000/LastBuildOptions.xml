@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="6.5"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-07 18:26:48" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\ashwac.br&quot; -L &quot;AsIecCon: V*, operator: V*, runtime: V*&quot; -c &quot;Config1&quot; -B 6.5.1 -P &quot;$(AS_PROJECT_PATH)&quot; -v 1.0.0 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-07 18:26:48" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0 -c &quot;Config1&quot; -sysconf -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\sysconf.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-07 18:26:48" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0 -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\asfw.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-07 18:26:48" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0 -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\ashwd.br&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-07 18:26:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\iomap.iom" LastWriteTime="2026-02-04 14:35:10" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /ANSL=1 /AM=* /IP=127.0.0.1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;Config1&quot; -v 1.0.0 -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\ReActionTechnologyConfiguration.xml&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -B 6.5.1 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\udbdef.br">
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2026-02-04 14:36:04" />
+    <CommandLine Parameter="$(AS_PATH)\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\iomap.iom" LastWriteTime="2026-02-04 14:35:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\pvmap.vvm" LastWriteTime="2026-02-04 14:35:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2026-03-07 18:26:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\cpu.sw" LastWriteTime="2026-03-07 19:22:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\channelconfiguration.xml" LastWriteTime="2026-03-07 19:06:46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\ChannelConfiguration.xml&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\iomap.br&quot; -B 6.5.1 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.5APC3200_RPL2_000&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\tcdata\tcdata.imx">
+    <Prerequisite ID="$(AS_PATH)\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2026-02-04 14:35:10" />
+    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\TCData\TCData.imx&quot; -c &quot;$(AS_PATH)\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;$(AS_PATH)\AS\System\6.5.1&quot; &quot;$(AS_PATH)\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\tcdata\tcdata.s18d">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\tcdata\tcdata.imx" LastWriteTime="2026-03-07 19:06:44" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\TCData\TCData.s18d&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\tcdata.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\tcdata\tcdata.s18d" LastWriteTime="2026-03-07 19:06:44" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\TCData.br&quot; -t TextModule -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\uacsconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\connectivity\opcuacs\uacsconfig.uacfg" LastWriteTime="2026-03-07 18:26:44" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\Connectivity\OpcUaCs\UaCsConfig.uacfg&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\UaCsConfig.br&quot; -zip -warmRestart -B 6.5.1 -z 6.0.0 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\brrole.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\accessandsecurity\userrolesystem\brrole.brrole" LastWriteTime="2026-03-07 18:26:44" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\UserRoleSystem\BRRole.brrole&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\BRRole.br&quot; -zip -B 6.5.1 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\fwrules.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2026-03-07 18:26:46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\FWRules.br&quot; -zip -B 6.5.1 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\pathplans1.ox" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\cpu.per" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1\PathPlanS1.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\5APC3200_RPL2_000\LT.ofs&quot; -M IA32 -B 6.5.1 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;PathPlanST&quot; -L &quot;AsIecCon: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\pathplans1.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\main.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\_bur_pvdef.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1\PathPlanS1.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\pathplanst\main.st" LastWriteTime="2026-03-07 18:55:06" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\PathPlanST\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1\Main.st.o&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;PathPlanST&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\PathPlanST\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\PathPlanST\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\_bur_pvdef.st.o">
+    <Prerequisite ID="$(AS_PATH)\as\gnuinst\v11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\main.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\PathPlanS1\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;PathPlanST&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\PathPlanST\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\PathPlanST\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\robotanaly.ox" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\cpu.per" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly\RobotAnaly.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\5APC3200_RPL2_000\LT.ofs&quot; -M IA32 -B 6.5.1 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic4 -p 3 -s &quot;RobotAnaly&quot; -L &quot;AsIecCon: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\robotanaly.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\main.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\_bur_pvdef.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly\RobotAnaly.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\robotanaly\main.st" LastWriteTime="2026-03-07 18:56:02" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\RobotAnaly\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly\Main.st.o&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;RobotAnaly&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\RobotAnaly\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\RobotAnaly\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\_bur_pvdef.st.o">
+    <Prerequisite ID="$(AS_PATH)\as\gnuinst\v11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\main.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\RobotAnaly\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;RobotAnaly&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\RobotAnaly\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\RobotAnaly\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\mainctrl.ox" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\cpu.per" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\MainCtrl.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\5APC3200_RPL2_000\LT.ofs&quot; -M IA32 -B 6.5.1 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic4 -p 4 -s &quot;MainCtrl&quot; -L &quot;AsIecCon: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\mainctrl.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\cyclic.ld.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\init.ld.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\exit.ld.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\_bur_pvdef.st.o" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\Cyclic.ld.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\Init.ld.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\Exit.ld.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\MainCtrl.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\cyclic.ld.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mainctrl\cyclic.ld" LastWriteTime="2026-03-07 19:05:22" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Cyclic.ld&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\Cyclic.ld.o&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;MainCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\init.ld.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mainctrl\init.ld" LastWriteTime="2026-03-07 18:57:02" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Init.ld&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\Init.ld.o&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;MainCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\exit.ld.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mainctrl\exit.ld" LastWriteTime="2026-03-07 18:57:02" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Exit.ld&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\Exit.ld.o&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;MainCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\_bur_pvdef.st.o">
+    <Prerequisite ID="$(AS_PATH)\as\gnuinst\v11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\cyclic.ld.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\init.ld.o" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\exit.ld.o" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\MainCtrl\_bur_pvdef.st.o&quot; -S &quot;Cyclic.ld&quot; &quot;Init.ld&quot; &quot;Exit.ld&quot;  -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;MainCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\MainCtrl\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\5APC3200_RPL2_000\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\5apc3200_rpl2_000\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\ashwac.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\sysconf.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\asfw.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\ashwd.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\arconfig.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\udbdef.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\iomap.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\tcdata.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\uacsconfig.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\brrole.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\fwrules.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplanst.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\amr_logist.br" LastWriteTime="0001-01-01 00:00:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\cpu.sw" LastWriteTime="0001-01-01 00:00:00" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\AMR_logistics.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;$(AS_PATH)&quot; -S &quot;5APC3200_RPL2_000&quot; -all -A &quot;xPC32xx&quot; -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\5APC3200_RPL2_000\Cpu.sw&quot; -Z &quot;OpcUaCs: 6.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, IEC: n.d, FMUExport: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /ANSL=1 /AM=* /IP=127.0.0.1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
+  </Rule>
+</RuleSetOptions>

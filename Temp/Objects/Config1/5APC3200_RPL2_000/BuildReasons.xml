@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\cyclic.ld.o">
+    <BuildReason>Target "cyclic.ld.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\pathplans1\main.st.o">
+    <BuildReason>Target "main.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\robotanaly\main.st.o">
+    <BuildReason>Target "main.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\5apc3200_rpl2_000\cpu.sw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\init.ld.o">
+    <BuildReason>Target "init.ld.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\5apc3200_rpl2_000\mainctrl\exit.ld.o">
+    <BuildReason>Target "exit.ld.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>

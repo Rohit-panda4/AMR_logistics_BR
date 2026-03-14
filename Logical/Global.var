@@ -1,0 +1,8 @@
+VAR_GLOBAL
+	gRobotState    : USINT := 0;       (* 0= Idle, 1= Active, 2= Fault *)
+	gPosY          : REAL  := 0.0;     (* Robot Y coordinate in meters *)
+	gPosX          : REAL  := 0.0;     (* Robot X coordinate in meters *)
+	gEmergencyStop : BOOL  := FALSE;   (* E-Stop Signal *)
+	gBatteryLevel  : REAL  := 100.0;   (* Battery % - Starts full *)
+	gRobotReady    : BOOL  := FALSE;   (* Set by MainControl LD *)
+END_VAR
